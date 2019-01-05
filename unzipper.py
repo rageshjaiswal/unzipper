@@ -11,7 +11,7 @@ for a in moth_dir_list:
     if a.endswith('.zip'):                            #Checking file if it is a zip file or not
         zip_file_count = zip_file_count + 1
 
-print("There are total of {0} zip files in the given folder, of which {1} are zip files".format(file_count,zip_file_count))
+print("There are total of {0} files in the given folder, of which {1} are zip files".format(file_count,zip_file_count))
 for a in moth_dir_list:
     if a.endswith('.zip'):
         zip_path = r"C:\Users\rages\Desktop\Practice" + "\\" + a
